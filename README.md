@@ -51,21 +51,32 @@ Entities (`Product`, `Order`, `OrderItem`) represent the actual tables in the Po
 * **Dotenv-java** (Environment variable management)
 * **Maven** (Build tool)
 
+## Running PostgreSQL with Docker
+
+```bash
+docker run --name postgres-db \
+  -e POSTGRES_USER=YOURNAME \
+  -e POSTGRES_PASSWORD=PASSWORD \
+  -e POSTGRES_DB=YOUR_DATABASE_NAME \
+  -p 5332:5432 \
+  -d postgres
+```
+
 ## Prerequisites
 
 Before running the application, ensure you have the following installed:
 
 * Java Development Kit (JDK) 21 or later
 * Maven
-* PostgreSQL server
+* Docker (for PostgreSQL container)
 
 ## Getting Started
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/0ANURAG12/springboot-ecommerce-api
-cd demo
+git clone https://github.com/0ANURAG12/springboot-ecommerce-api.git
+cd springboot-ecommerce-api
 ```
 
 ### 2. Configure Environment Variables
