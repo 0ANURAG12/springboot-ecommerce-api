@@ -51,6 +51,15 @@ Entities (`Product`, `Order`, `OrderItem`) represent the actual tables in the Po
 * **Dotenv-java** (Environment variable management)
 * **Maven** (Build tool)
 
+
+## Prerequisites
+
+Before running the application, ensure you have the following installed:
+
+* Java Development Kit (JDK) 21 or later
+* Maven
+* Docker (for PostgreSQL container)
+
 ## Running PostgreSQL with Docker
 
 ```bash
@@ -61,14 +70,6 @@ docker run --name postgres-db \
   -p 5332:5432 \
   -d postgres
 ```
-
-## Prerequisites
-
-Before running the application, ensure you have the following installed:
-
-* Java Development Kit (JDK) 21 or later
-* Maven
-* Docker (for PostgreSQL container)
 
 ## Getting Started
 
