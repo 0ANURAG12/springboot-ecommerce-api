@@ -64,7 +64,7 @@ Before running the application, ensure you have the following installed:
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/0ANURAG12/springboot-ecommerce-api
 cd demo
 ```
 
